@@ -1,0 +1,114 @@
+/* Medium screens container */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/* Larg screens container */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+/* X-Larg screens container */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (max-width: 768px) {
+  header nav .toggle-menue {
+    display: block;
+  }
+  header nav ul {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 2;
+  }
+  header nav ul li a {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 768px) {
+  .landing .background-toggle {
+    display: none;
+  }
+  .landing .text {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .laning .text .content {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .services .srv-box {
+    text-align: center;
+    flex-direction: column;
+  }
+  .services .srv-box i {
+    margin: 0 0 30px 0;
+  }
+}
+@media (max-width: 768px) {
+  .design .image {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .portfolio .images .box {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio .images .box {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .about img {
+    bottom: -60px;
+    margin-top: -60px;
+  }
+}
+@media (max-width: 992px) {
+  .stats .container .box {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .stats .container .box {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .subscribe .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  .our-skills .container {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .our-skills .testimonials .box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .our-skills .testimonials .box img {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .contact .content {
+    flex-direction: column;
+  }
+}
